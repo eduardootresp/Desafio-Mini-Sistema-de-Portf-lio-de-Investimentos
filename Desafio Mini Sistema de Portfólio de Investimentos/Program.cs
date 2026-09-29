@@ -70,7 +70,7 @@ namespace Desafio_Mini_Sistema_de_Portfólio_de_Investimentos
             Console.WriteLine($"\nValor Total: {valortotal:C2}");
             // Mostrar valor da média ponderada
             var mediaPonderada = rentabilidade.CalcularRentabilidadeMediaPonderada();
-            Console.WriteLine($"Rentabilidade Média Ponderada: {mediaPonderada:f2}%");
+            Console.WriteLine($"Rentabilidade Média Ponderada: {mediaPonderada:p2}");
 
             // 2 Renda Periódica Total
             Console.WriteLine("\n=== Renda Periódica Total ===");
